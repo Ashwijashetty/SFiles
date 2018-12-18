@@ -1,0 +1,15 @@
+package com.cg.Employee.service;
+
+import org.springframework.stereotype.Service;
+
+import com.cg.Employee.entity.Employee;
+@Service
+public class EmpServiceImpl implements EmpService{
+
+	@Override
+	public Employee addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

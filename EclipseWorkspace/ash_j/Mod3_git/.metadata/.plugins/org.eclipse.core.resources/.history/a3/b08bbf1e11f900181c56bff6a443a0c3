@@ -1,0 +1,47 @@
+package com.cg.ecm.entity;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
+
+@Document(collection = "expensedetails")
+public class ExpenseDetails {
+	@Id
+	private int expenseCode;
+	@Field(value = "expense_type")
+	private String expenseType;
+	@Field(value = "expense_description")
+	private String expenseDescription;
+	public int getExpenseCode() {
+		return expenseCode;
+	}
+	public void setExpenseCode(int expenseCode) {
+		this.expenseCode = expenseCode;
+	}
+	public String getExpenseType() {
+		return expenseType;
+	}
+	public void setExpenseType(String expenseType) {
+		this.expenseType = expenseType;
+	}
+	public String getExpenseDescription() {
+		return expenseDescription;
+	}
+	public void setExpenseDescription(String expenseDescription) {
+		this.expenseDescription = expenseDescription;
+	}
+	@Override
+	public String toString() {
+		return "ExpenseDetails [expenseCode=" + expenseCode + ", expenseType="
+				+ expenseType + ", expenseDescription=" + expenseDescription
+				+ "]";
+	}
+	public ExpenseDetails(int expenseCode, String expenseType,
+			String expenseDescription) {
+		super();
+		this.expenseCode = expenseCode;
+		this.expenseType = expenseType;
+		this.expenseDescription = expenseDescription;
+	}
+	
+}

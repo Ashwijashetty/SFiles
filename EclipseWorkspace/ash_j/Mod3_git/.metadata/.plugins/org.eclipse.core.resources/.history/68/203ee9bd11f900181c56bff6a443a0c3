@@ -1,0 +1,9 @@
+package com.cg.ecm.dao;
+
+import com.cg.ecm.entity.ExpenseDetails;
+
+public interface EMCDao {
+
+	ExpenseDetails addDetails(ExpenseDetails expdetails);
+
+}

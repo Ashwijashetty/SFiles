@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;springMVCboot&apos;&#x0D;&#x0A;- Original project: &apos;springMVCboot&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     springMVCboot/src/main/java/com.cg.example.springMVCboot.controller&#x0D;&#x0A;     springMVCboot/src/main/java/com.cg.example.springMVCboot.dao&#x0D;&#x0A;     springMVCboot/src/main/java/com.cg.example.springMVCboot.service" description="Delete elements" element1="/src\/main\/java&lt;com.cg.example.springMVCboot.service" element2="/src\/main\/java&lt;com.cg.example.springMVCboot.dao" element3="/src\/main\/java&lt;com.cg.example.springMVCboot.controller" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1541134934134" subPackages="false" version="1.0"/>
+</session>

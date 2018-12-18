@@ -1,0 +1,17 @@
+package com.cg.ecm.dao;
+
+import java.util.List;
+
+import com.cg.ecm.entity.ExpenseDetails;
+
+public interface EMCDao {
+
+	ExpenseDetails addDetails(ExpenseDetails expdetails);
+
+	List<ExpenseDetails> getAllDetails();
+
+	ExpenseDetails getByCode(int expenseCode);
+
+	ExpenseDetails DeleteByCode(int expenseCode);
+
+}

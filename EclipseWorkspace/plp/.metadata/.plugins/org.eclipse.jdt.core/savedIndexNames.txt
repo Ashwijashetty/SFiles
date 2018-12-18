@@ -1,0 +1,23 @@
+INDEX VERSION 1.127+D:\eclipse_luna_64bit\eclipse\plp\.metadata\.plugins\org.eclipse.jdt.core
+3210258759.index
+4207606346.index
+121067679.index
+3291433095.index
+1290447045.index
+2828007689.index
+1155672536.index
+1137388677.index
+1974220794.index
+678690127.index
+4086170951.index
+3059569877.index
+3102758018.index
+1146847408.index
+789220477.index
+689374086.index
+398997195.index
+2803648758.index
+2671071348.index
+4238067740.index
+3143632911.index
+1502094368.index

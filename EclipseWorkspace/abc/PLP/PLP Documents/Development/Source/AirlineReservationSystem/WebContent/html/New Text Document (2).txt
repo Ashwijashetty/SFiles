@@ -1,0 +1,8 @@
+user option screen->user requirement screen->user flight schedule screen->userbookscreen->payment gateway->book success
+user option screen->user pnr screen->manage my booking screen(cancel,reschedule,class)->book success
+user option screen->user pnr screen-> flight status screen
+
+executive-admin login screen-> executive option screen()->view screens
+
+executive-admin login screen->admin option screen -> manage screens->success screens
+executive-admin login screen->admin option screen -> view screens-> 

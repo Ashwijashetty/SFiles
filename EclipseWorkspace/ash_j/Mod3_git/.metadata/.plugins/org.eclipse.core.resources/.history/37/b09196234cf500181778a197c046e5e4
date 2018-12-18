@@ -1,0 +1,9 @@
+package com.cg.Employee.service;
+
+import com.cg.Employee.entity.Employee;
+
+public interface EmpService {
+
+public Employee addEmployee(Employee employee);
+
+}

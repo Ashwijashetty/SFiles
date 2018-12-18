@@ -1,0 +1,13 @@
+package com.cg.Employee.service;
+
+import com.cg.Employee.entity.Employee;
+
+public class EmpServiceImpl implements EmpService{
+
+	@Override
+	public Employee addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

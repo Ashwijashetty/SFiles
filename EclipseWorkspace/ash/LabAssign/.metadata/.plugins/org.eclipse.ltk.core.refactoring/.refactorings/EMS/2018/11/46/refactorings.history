@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;WEB-INF&apos;&#x0D;&#x0A;- Original project: &apos;EMS&apos;&#x0D;&#x0A;- Destination element: &apos;WEB-INF&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     dispatcher-servlet.xml&#x0D;&#x0A;     web.xml&#x0D;&#x0A;     jpaContext.xml" description="Copy files" element1="WebContent/WEB-INF/dispatcher-servlet.xml" element2="WebContent/WEB-INF/web.xml" element3="WebContent/WEB-INF/jpaContext.xml" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1542083646419" target="/BusTicketViewApplication_160646/WebContent/WEB-INF" units="0" version="1.0"/>
+</session>

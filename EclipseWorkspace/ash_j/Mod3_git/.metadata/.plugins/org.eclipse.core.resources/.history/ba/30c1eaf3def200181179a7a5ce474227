@@ -1,0 +1,5 @@
+package com.cg.SampeStudent.models;
+
+public class Student {
+
+}

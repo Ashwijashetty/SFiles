@@ -1,0 +1,5 @@
+package com.cg.Employee.dao;
+
+public class EmpDaoImpl {
+
+}

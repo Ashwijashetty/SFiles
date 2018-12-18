@@ -1,0 +1,105 @@
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Invalid number is chosen
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Invalid number is chosen
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Invalid number is chosen
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 7
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Invalid number is chosen
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-ERROR-com.cg.bms.presentation.BMSMain:User entered invalid option
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@f20235
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@f20235
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@f20235
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:In Account service class..
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@f20235
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:In Account service class..
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@f20235
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:In Account service class..
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@f20235
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:In Account service class..
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-10-12-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@f20235
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-10-12-main-INFO -com.cg.bms.service.AccountServiceImpl:In Account service class..
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@f20235
+2018-10-13-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-10-13-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-10-13-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-10-13-main-INFO -com.cg.bms.service.AccountServiceImpl:In Account service class..
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@f20235
+2018-10-13-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-10-13-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-10-13-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-10-13-main-INFO -com.cg.bms.service.AccountServiceImpl:In Account service class..
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 8
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:Invalid number is chosen
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-13-main-ERROR-com.cg.bms.presentation.BMSMain:User entered invalid option
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 5
+2018-10-13-main-INFO -com.cg.bms.presentation.BMSMain:Invalid number is chosen
+2018-10-16-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-10-16-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-11-16-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-11-16-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-11-16-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@f20235
+2018-11-16-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-11-16-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-11-16-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-11-16-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-11-16-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-11-16-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@f20235
+2018-11-16-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-11-16-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-11-16-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-11-16-main-INFO -com.cg.bms.service.AccountServiceImpl:In Account service class..
+2018-11-16-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-11-16-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 2
+2018-11-17-main-INFO -com.cg.bms.presentation.BMSMain:log4j configured
+2018-11-17-main-INFO -com.cg.bms.presentation.BMSMain:Selected option is : 1
+2018-11-17-main-INFO -com.cg.bms.presentation.BMSMain:Account object createdcom.cg.bms.model.Account@1d6c5e0
+2018-11-17-main-INFO -com.cg.bms.service.AccountServiceImpl:Name validation method
+2018-11-17-main-INFO -com.cg.bms.service.AccountServiceImpl:Balance validation method
+2018-11-17-main-INFO -com.cg.bms.service.AccountServiceImpl:Date validation method
+2018-11-17-main-INFO -com.cg.bms.service.AccountServiceImpl:In Account service class..

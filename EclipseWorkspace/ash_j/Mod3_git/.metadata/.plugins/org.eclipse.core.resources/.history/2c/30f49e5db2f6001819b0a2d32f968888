@@ -1,0 +1,5 @@
+package com.cg.TDS.dao;
+
+public interface TdsDao {
+
+}

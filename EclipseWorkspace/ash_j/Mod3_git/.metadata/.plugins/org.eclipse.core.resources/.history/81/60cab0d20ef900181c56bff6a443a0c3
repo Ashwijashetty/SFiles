@@ -1,0 +1,16 @@
+package com.cg.ecm.entity;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
+
+@Document(collection = "expensedetails")
+public class ExpenseDetails {
+	@Id
+	private int expenseCode;
+	@Field(value = "expense_type")
+	private String expenseType;
+	@Field(value = "expense_description")
+	private String expenseDescription;
+	
+}

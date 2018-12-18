@@ -1,0 +1,70 @@
+package com.cg.Employee.entity;
+
+import java.util.Date;
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+public class Employee {
+@Id
+	private String emp_id;
+@NotNull
+@Size(min=3,message="Minimum of three letters")
+private String name;
+private int age;
+private String designation;
+private Date dob;
+public String getEmp_id() {
+	return emp_id;
+}
+public void setEmp_id(String emp_id) {
+	this.emp_id = emp_id;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public int getAge() {
+	return age;
+}
+public void setAge(int age) {
+	this.age = age;
+}
+public String getDesignation() {
+	return designation;
+}
+public void setDesignation(String designation) {
+	this.designation = designation;
+}
+public Date getDob() {
+	return dob;
+}
+public void setDob(Date dob) {
+	this.dob = dob;
+}
+@Override
+public String toString() {
+	return "Employee [emp_id=" + emp_id + ", name=" + name + ", age=" + age
+			+ ", designation=" + designation + ", dob=" + dob + "]";
+}
+public Employee(String emp_id, String name, int age, String designation,
+		Date dob) {
+	super();
+	this.emp_id = emp_id;
+	this.name = name;
+	this.age = age;
+	this.designation = designation;
+	this.dob = dob;
+}
+public Employee() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+
+}

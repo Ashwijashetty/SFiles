@@ -1,0 +1,7 @@
+package com.cg.TDS.Exception;
+
+public class TDSException {
+public TDSException(String exception){
+	super(exception);
+}
+}

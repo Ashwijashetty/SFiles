@@ -1,0 +1,18 @@
+package com.cg.TDS.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cg.TDS.dao.TdsDao;
+import com.cg.TDS.entity.TdsDetail;
+@Service
+public class TdsServiceImpl implements TdsService{
+@Autowired
+	TdsDao tdsDao;
+	@Override
+	public TdsDetail addTds(TdsDetail tdsDetail) {
+
+		return tdsDao.addTds(tdsDetail);
+	}
+
+}

@@ -1,0 +1,112 @@
+package com.cg.ecdm.presentation;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.cg.ecdm.models.Employee;
+import com.cg.ecdm.models.ExpenseDetails;
+
+@RestController
+@RequestMapping("/ecdm")
+public class MainController {
+
+	@RequestMapping(value = "/createExpense", method = RequestMethod.POST)
+	public ExpenseDetails createExpense(
+			@RequestBody ExpenseDetails expenseDetails) {
+		final String uri = "http://localhost:8102/ecm/create";
+		RestTemplate restTemplate = new RestTemplate();
+		ExpenseDetails details = restTemplate.postForObject(uri,
+				expenseDetails, ExpenseDetails.class);
+		return details;
+	}
+	
+	@RequestMapping(value = "/readExpense", method = RequestMethod.GET)
+	public List<ExpenseDetails> readExpense() {
+		final String uri = "http://localhost:8102/ecm/readExpense";
+		RestTemplate restTemplate = new RestTemplate();
+		@SuppressWarnings("unchecked")
+		List<ExpenseDetails> details = restTemplate.getForObject(uri, List.class);
+		return details;
+	}
+	
+	@RequestMapping(value = "/readExpense/{expenseCode}", method = RequestMethod.GET)
+	public ExpenseDetails readByExpenseCode(@PathVariable int expenseCode) {
+		final String uri = "http://localhost:8102/ecm/read/{expenseCode}";
+		RestTemplate restTemplate = new RestTemplate();
+		ExpenseDetails details = restTemplate.getForObject(uri, ExpenseDetails.class, expenseCode);
+		return details;
+	}
+	
+	@RequestMapping(value = "/modifyExpense/{expenseCode}", method = RequestMethod.PUT)
+	public ExpenseDetails modifyExpense(@PathVariable int expenseCode,
+			@RequestBody ExpenseDetails expenseDetails) {
+		final String uri = "http://localhost:8102/ecm/update/{expenseCode}";
+		RestTemplate restTemplate = new RestTemplate();
+		expenseDetails.setExpenseCode(expenseCode);
+		restTemplate.put(uri, expenseDetails, expenseCode);
+		return expenseDetails;
+	}
+	
+	@RequestMapping(value = "/deleteExpense/{expenseCode}", method = RequestMethod.DELETE)
+	public String deleteExpense(
+			@PathVariable int expenseCode) {
+		final String uri = "http://localhost:8102/ecm/delete/{expenseCode}";
+		RestTemplate restTemplate = new RestTemplate();
+	restTemplate.delete(uri,	expenseCode);
+		return "Delete Success";
+	}
+	
+
+	@RequestMapping(value = "/createEmployee", method = RequestMethod.POST)
+	public Employee createEmployee(@RequestBody Employee employee) {
+		final String uri = "http://localhost:8889/employee/create";
+		RestTemplate restTemplate = new RestTemplate();
+		Employee details = restTemplate.postForObject(uri, employee,
+				Employee.class);
+		return details;
+	}
+
+	@RequestMapping(value = "/readEmployee", method = RequestMethod.GET)
+	public List<Employee> readEmployee() {
+		final String uri = "http://localhost:8889/employee/readall";
+		RestTemplate restTemplate = new RestTemplate();
+		@SuppressWarnings("unchecked")
+		List<Employee> details = restTemplate.getForObject(uri, List.class);
+		return details;
+	}
+
+	@RequestMapping(value = "/modifyEmployee/{employeeId}", method = RequestMethod.PUT)
+	public Employee updateData(@PathVariable String employeeId,
+			@RequestBody Employee employee) {
+		final String uri = "http://localhost:8889/employee/modify/{employeeId}";
+		RestTemplate restTemplate = new RestTemplate();
+		restTemplate.put(uri, employee, employeeId);
+		return employee;
+
+	}
+
+	@RequestMapping(value = "/deleteEmployee/{employeeId}", method = RequestMethod.DELETE)
+	public String deleteData(@PathVariable String employeeId) {
+		final String uri = "http://localhost:8889/employee/delete/{employeeId}";
+		RestTemplate restTemplate = new RestTemplate();
+		restTemplate.delete(uri, employeeId);
+		return " happy??? deleted :-(";
+
+	}
+
+	@RequestMapping(value = "/readEmployee/{employeeId}", method = RequestMethod.GET)
+	public Employee readData(@PathVariable String employeeId) {
+		final String uri = "http://localhost:8889/employee/read/{employeeId}";
+		RestTemplate restTemplate = new RestTemplate();
+		Employee employee = restTemplate.getForObject(uri, Employee.class, employeeId);
+		return employee;
+	}
+	
+}

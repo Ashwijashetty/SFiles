@@ -1,0 +1,12 @@
+package com.cg.ems;
+
+public class EmployeeServiceImpl implements IEmployeeService{
+
+
+	@Override
+	public String getDesig(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

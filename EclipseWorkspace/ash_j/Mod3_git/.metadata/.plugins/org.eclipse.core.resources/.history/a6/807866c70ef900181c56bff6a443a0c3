@@ -1,0 +1,8 @@
+package com.cg.ecm.entity;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "expensedetails")
+public class ExpenseDetails {
+
+}

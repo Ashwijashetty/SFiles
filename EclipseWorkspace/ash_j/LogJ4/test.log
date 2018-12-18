@@ -1,0 +1,4 @@
+2018-10-12-main-INFO -com.cg.loggers.demo.Main:file configured..
+2018-10-12-main-INFO -com.cg.loggers.demo.Main:number1 is : 1
+2018-10-12-main-INFO -com.cg.loggers.demo.Main:number2 is : 2
+2018-10-12-main-INFO -com.cg.loggers.demo.Main:number3 is : 3

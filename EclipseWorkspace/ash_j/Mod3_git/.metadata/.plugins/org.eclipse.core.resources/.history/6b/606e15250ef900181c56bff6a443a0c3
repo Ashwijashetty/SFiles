@@ -1,0 +1,11 @@
+package com.cg.ExpenseCodeModule;
+
+import org.springframework.boot.SpringApplication;
+
+
+
+public class ECMApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(ECMApplication.class, args);
+	}
+}

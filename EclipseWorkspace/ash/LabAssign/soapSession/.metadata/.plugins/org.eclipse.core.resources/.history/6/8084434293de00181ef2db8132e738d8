@@ -1,0 +1,14 @@
+package com.cg.ems;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeDB {
+static List<Employee> liste=new ArrayList<Employee>();
+static{
+	liste.add(new Employee(1,"ABC","Analyst"));
+	liste.add(new Employee(1,"XYZ","sr.Analyst"));
+	liste.add(new Employee(1,"Sri","Associate"));
+	
+}
+ }

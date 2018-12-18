@@ -1,0 +1,7 @@
+package com.cg.ems;
+
+public interface IEmployeeService {
+
+
+public String getDesig(String string);
+}

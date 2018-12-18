@@ -1,0 +1,1130 @@
+src/com/capgemini/ars/bean/AirportBean.java:9:	Each class should declare at least one constructor
+src/com/capgemini/ars/bean/AirportBean.java:9:	headerCommentRequirement Required
+src/com/capgemini/ars/bean/AirportBean.java:11:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/AirportBean.java:12:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/AirportBean.java:13:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/AirportBean.java:15:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/AirportBean.java:19:	Parameter 'airportName' is not assigned and could be declared final
+src/com/capgemini/ars/bean/AirportBean.java:19:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/AirportBean.java:23:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/AirportBean.java:27:	Parameter 'abbreviation' is not assigned and could be declared final
+src/com/capgemini/ars/bean/AirportBean.java:27:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/AirportBean.java:31:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/AirportBean.java:35:	Parameter 'location' is not assigned and could be declared final
+src/com/capgemini/ars/bean/AirportBean.java:35:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/AirportBean.java:40:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:21:	headerCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:23:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:28:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/BookingInformationBean.java:28:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:29:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:33:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/BookingInformationBean.java:33:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:36:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:39:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:42:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:45:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:49:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/BookingInformationBean.java:49:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:52:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:55:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:58:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:62:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/BookingInformationBean.java:62:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:64:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/capgemini/ars/bean/BookingInformationBean.java:64:	Document empty constructor
+src/com/capgemini/ars/bean/BookingInformationBean.java:64:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:67:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:71:	Parameter 'bookingId' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:71:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:75:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:79:	Parameter 'flightNo' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:79:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:83:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:87:	Parameter 'custEmail' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:87:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:91:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:95:	Parameter 'noOfPassengers' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:95:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:99:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:103:	Parameter 'classType' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:103:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:107:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:111:	Parameter 'totalFare' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:111:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:115:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:119:	Parameter 'seatNumber' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:119:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:123:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:127:	Parameter 'creditCardInfo' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:127:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:131:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:135:	Parameter 'srcCity' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:135:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:139:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:143:	Parameter 'destCity' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:143:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:147:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:151:	Parameter 'status' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:151:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:155:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:159:	Parameter 'tempDeptDate' is not assigned and could be declared final
+src/com/capgemini/ars/bean/BookingInformationBean.java:159:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/BookingInformationBean.java:164:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:23:	Each class should declare at least one constructor
+src/com/capgemini/ars/bean/FlightInformationBean.java:23:	Too many fields
+src/com/capgemini/ars/bean/FlightInformationBean.java:23:	headerCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:25:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:31:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/FlightInformationBean.java:31:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:34:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:37:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:40:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:43:	The String literal "yyyy-MM-dd" appears 4 times in this file; the first occurrence is on line 43
+src/com/capgemini/ars/bean/FlightInformationBean.java:44:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/FlightInformationBean.java:44:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:48:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/FlightInformationBean.java:48:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:51:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:54:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:57:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:60:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:64:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/FlightInformationBean.java:64:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:68:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/FlightInformationBean.java:68:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:73:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/FlightInformationBean.java:73:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:78:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/FlightInformationBean.java:78:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:80:	The String literal "Please fill out this field" appears 4 times in this file; the first occurrence is on line 80
+src/com/capgemini/ars/bean/FlightInformationBean.java:82:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:86:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:90:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:94:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:96:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:100:	Parameter 'flightNo' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:100:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:104:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:108:	Parameter 'airline' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:108:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:112:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:116:	Parameter 'deptCity' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:116:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:120:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:124:	Parameter 'arrCity' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:124:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:128:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:132:	Parameter 'deptDate' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:132:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:136:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:140:	Parameter 'arrDate' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:140:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:144:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:148:	Parameter 'deptTime' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:148:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:152:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:156:	Parameter 'arrTime' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:156:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:160:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:164:	Parameter 'firstSeats' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:164:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:168:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:172:	Parameter 'firstSeatsFare' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:172:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:176:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:180:	Parameter 'bussSeats' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:180:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:184:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:188:	Parameter 'bussSeatsFare' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:188:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:192:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:196:	Parameter 'classType' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:196:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:200:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:204:	Parameter 'passengers' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:204:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:208:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:212:	Parameter 'ccno' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:212:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:216:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:220:	Parameter 'email' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:220:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:224:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:228:	Parameter 'tempDeptDate' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:228:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:232:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:236:	Parameter 'tempArrDate' is not assigned and could be declared final
+src/com/capgemini/ars/bean/FlightInformationBean.java:236:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/FlightInformationBean.java:241:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/LocationBean.java:9:	Each class should declare at least one constructor
+src/com/capgemini/ars/bean/LocationBean.java:9:	headerCommentRequirement Required
+src/com/capgemini/ars/bean/LocationBean.java:11:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/LocationBean.java:12:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/LocationBean.java:13:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/LocationBean.java:15:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/LocationBean.java:19:	Parameter 'state' is not assigned and could be declared final
+src/com/capgemini/ars/bean/LocationBean.java:19:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/LocationBean.java:23:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/LocationBean.java:27:	Parameter 'city' is not assigned and could be declared final
+src/com/capgemini/ars/bean/LocationBean.java:27:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/LocationBean.java:31:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/LocationBean.java:35:	Parameter 'zipCode' is not assigned and could be declared final
+src/com/capgemini/ars/bean/LocationBean.java:35:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/LocationBean.java:40:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:11:	Each class should declare at least one constructor
+src/com/capgemini/ars/bean/UserBean.java:11:	headerCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:14:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/capgemini/ars/bean/UserBean.java:14:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:17:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:18:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:19:	fieldCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:21:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:25:	Parameter 'userName' is not assigned and could be declared final
+src/com/capgemini/ars/bean/UserBean.java:25:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:29:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:33:	Parameter 'password' is not assigned and could be declared final
+src/com/capgemini/ars/bean/UserBean.java:33:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:37:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:41:	Parameter 'role' is not assigned and could be declared final
+src/com/capgemini/ars/bean/UserBean.java:41:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:45:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:49:	Parameter 'mobileNo' is not assigned and could be declared final
+src/com/capgemini/ars/bean/UserBean.java:49:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/bean/UserBean.java:54:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:23:	This class has too many methods, consider refactoring it.
+src/com/capgemini/ars/controller/AdminController.java:23:	headerCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:24:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/controller/AdminController.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/controller/AdminController.java:25:	fieldCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:26:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/controller/AdminController.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/controller/AdminController.java:26:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/controller/AdminController.java:26:	fieldCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/controller/AdminController.java:27:	The Logger variable declaration does not contain the static and final modifiers
+src/com/capgemini/ars/controller/AdminController.java:27:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/controller/AdminController.java:27:	fieldCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:28:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/capgemini/ars/controller/AdminController.java:28:	Document empty constructor
+src/com/capgemini/ars/controller/AdminController.java:28:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:32:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:32:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:34:	Local variable 'insertFlight' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:37:	The String literal "cityList" appears 4 times in this file; the first occurrence is on line 37
+src/com/capgemini/ars/controller/AdminController.java:39:	Local variable 'date1' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/controller/AdminController.java:40:	Local variable 'date2' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:41:	The String literal "minDate" appears 4 times in this file; the first occurrence is on line 41
+src/com/capgemini/ars/controller/AdminController.java:42:	The String literal "maxDate" appears 4 times in this file; the first occurrence is on line 42
+src/com/capgemini/ars/controller/AdminController.java:44:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:45:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:46:	The String literal "errObj" appears 15 times in this file; the first occurrence is on line 46
+src/com/capgemini/ars/controller/AdminController.java:47:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:47:	The String literal "Error" appears 15 times in this file; the first occurrence is on line 47
+src/com/capgemini/ars/controller/AdminController.java:53:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:53:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:58:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:58:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:59:	Local variable 'updateFlight' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:65:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:65:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:66:	Local variable 'deleteFlight' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:72:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:73:	Parameter 'insertFlight' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:74:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:74:	Parameter 'result' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:75:	Local variable 'date1' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:76:	Local variable 'date2' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:84:	Local variable 'date3' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:84:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/controller/AdminController.java:85:	Local variable 'date4' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:85:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:89:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:90:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:90:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:92:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:94:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:99:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:100:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:100:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:102:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:104:	Local variable 'msgObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:106:	The String literal "msgObj" appears 4 times in this file; the first occurrence is on line 106
+src/com/capgemini/ars/controller/AdminController.java:107:	The String literal "AdminSuccess" appears 4 times in this file; the first occurrence is on line 107
+src/com/capgemini/ars/controller/AdminController.java:111:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:112:	Parameter 'updateFlight' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:113:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:114:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/capgemini/ars/controller/AdminController.java:114:	Found 'DU'-anomaly for variable 'updatedFlight' (lines '114'-'148').
+src/com/capgemini/ars/controller/AdminController.java:119:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:120:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:120:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:122:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:128:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:129:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:129:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:131:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:133:	Avoid if (x != y) ..; else ..;
+src/com/capgemini/ars/controller/AdminController.java:136:	Local variable 'date1' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/controller/AdminController.java:137:	Local variable 'date2' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:137:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:142:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:142:	The String literal "Flight number doesn't exist...." appears 4 times in this file; the first occurrence is on line 142
+src/com/capgemini/ars/controller/AdminController.java:144:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:151:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:152:	Parameter 'updatedFlight' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:153:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:153:	Parameter 'result' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:158:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:159:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:159:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:161:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:166:	Local variable 'date1' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:166:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/controller/AdminController.java:167:	Local variable 'date2' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:167:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:171:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:173:	Found 'DD'-anomaly for variable 'valid' (lines '173'-'179').
+src/com/capgemini/ars/controller/AdminController.java:174:	Local variable 'date1' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:175:	Local variable 'date2' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:179:	Found 'DU'-anomaly for variable 'valid' (lines '179'-'192').
+src/com/capgemini/ars/controller/AdminController.java:181:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:182:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:182:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:184:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:188:	Local variable 'msgObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:195:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:196:	Avoid reassigning parameters such as 'deleteFlight'
+src/com/capgemini/ars/controller/AdminController.java:197:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:198:	Found 'DD'-anomaly for variable 'flight' (lines '198'-'201').
+src/com/capgemini/ars/controller/AdminController.java:199:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/capgemini/ars/controller/AdminController.java:199:	Found 'DU'-anomaly for variable 'valid' (lines '199'-'236').
+src/com/capgemini/ars/controller/AdminController.java:201:	Found 'DU'-anomaly for variable 'flight' (lines '201'-'236').
+src/com/capgemini/ars/controller/AdminController.java:204:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:205:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:205:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:207:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:214:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:219:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:220:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:220:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:222:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:224:	Avoid unnecessary comparisons in boolean expressions
+src/com/capgemini/ars/controller/AdminController.java:226:	Local variable 'msgObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:231:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:233:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:239:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:240:	Parameter 'retrieveFlight' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:241:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:242:	Found 'DD'-anomaly for variable 'bean' (lines '242'-'244').
+src/com/capgemini/ars/controller/AdminController.java:244:	Found 'DU'-anomaly for variable 'bean' (lines '244'-'263').
+src/com/capgemini/ars/controller/AdminController.java:247:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:248:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:248:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:250:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:252:	Avoid if (x != y) ..; else ..;
+src/com/capgemini/ars/controller/AdminController.java:253:	Local variable 'flightBean' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:258:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:260:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:266:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:266:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:267:	Found 'DD'-anomaly for variable 'list' (lines '267'-'270').
+src/com/capgemini/ars/controller/AdminController.java:268:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/capgemini/ars/controller/AdminController.java:268:	Found 'DU'-anomaly for variable 'result' (lines '268'-'288').
+src/com/capgemini/ars/controller/AdminController.java:270:	Found 'DU'-anomaly for variable 'list' (lines '270'-'288').
+src/com/capgemini/ars/controller/AdminController.java:272:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:273:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:273:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AdminController.java:275:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:277:	Avoid if (x != y) ..; else ..;
+src/com/capgemini/ars/controller/AdminController.java:283:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:285:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AdminController.java:291:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:291:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:292:	Local variable 'retrieveFlight' could be declared final
+src/com/capgemini/ars/controller/AdminController.java:298:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:298:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AdminController.java:303:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AdminController.java:303:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:19:	headerCommentRequirement Required
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:20:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:21:	fieldCommentRequirement Required
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:22:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:22:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:22:	fieldCommentRequirement Required
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:23:	The Logger variable declaration does not contain the static and final modifiers
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:23:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:23:	fieldCommentRequirement Required
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:24:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:24:	Document empty constructor
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:24:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:28:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:28:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:29:	Local variable 'flight' could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:30:	The String literal "flight" appears 4 times in this file; the first occurrence is on line 30
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:31:	Local variable 'date1' could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:31:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:32:	Local variable 'date2' could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:32:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:39:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:39:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:40:	Local variable 'flight' could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:47:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:48:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:49:	The String literal "errObj" appears 5 times in this file; the first occurrence is on line 49
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:50:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:50:	The String literal "Error" appears 5 times in this file; the first occurrence is on line 50
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:56:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:57:	Parameter 'flight' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:57:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:58:	Found 'DD'-anomaly for variable 'list' (lines '58'-'64').
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:59:	Local variable 'date1' could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:60:	Local variable 'date2' could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:64:	Found 'DU'-anomaly for variable 'list' (lines '64'-'84').
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:69:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:71:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:73:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:73:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:78:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:80:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:87:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:88:	Parameter 'flight' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:88:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:89:	Found 'DD'-anomaly for variable 'list' (lines '89'-'91').
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:91:	Found 'DU'-anomaly for variable 'list' (lines '91'-'108').
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:94:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:95:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:95:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:97:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:99:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:99:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:103:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:105:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:111:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AirlineExecutiveController.java:111:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/AirlineFilter.java:21:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/capgemini/ars/controller/AirlineFilter.java:35:	Parameter 'request' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AirlineFilter.java:35:	Parameter 'response' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AirlineFilter.java:36:	Parameter 'chain' is not assigned and could be declared final
+src/com/capgemini/ars/controller/AirlineFilter.java:47:	Parameter 'fConfig' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:21:	Each class should declare at least one constructor
+src/com/capgemini/ars/controller/LoginController.java:21:	headerCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:22:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/controller/LoginController.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/controller/LoginController.java:23:	fieldCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/controller/LoginController.java:24:	The Logger variable declaration does not contain the static and final modifiers
+src/com/capgemini/ars/controller/LoginController.java:24:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/controller/LoginController.java:24:	fieldCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:25:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:29:	Parameter 'logServ' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:29:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:34:	Parameter 'request' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:34:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:35:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:36:	Local variable 'session' could be declared final
+src/com/capgemini/ars/controller/LoginController.java:37:	Local variable 'user' could be declared final
+src/com/capgemini/ars/controller/LoginController.java:41:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/LoginController.java:43:	The String literal "Login" appears 5 times in this file; the first occurrence is on line 43
+src/com/capgemini/ars/controller/LoginController.java:47:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:47:	Parameter 'request' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:47:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:48:	Local variable 'session' could be declared final
+src/com/capgemini/ars/controller/LoginController.java:49:	Local variable 'user' could be declared final
+src/com/capgemini/ars/controller/LoginController.java:53:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/LoginController.java:59:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:59:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:64:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:64:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:69:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:70:	Parameter 'user' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:71:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:71:	Parameter 'result' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:73:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/LoginController.java:77:	Local variable 'userInfo' could be declared final
+src/com/capgemini/ars/controller/LoginController.java:78:	Avoid if (x != y) ..; else ..;
+src/com/capgemini/ars/controller/LoginController.java:79:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/controller/LoginController.java:79:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/LoginController.java:80:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/LoginController.java:81:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/controller/LoginController.java:81:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/LoginController.java:82:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/LoginController.java:85:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/LoginController.java:89:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/LoginController.java:91:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/LoginController.java:99:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:99:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:104:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:104:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:109:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:109:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/LoginController.java:114:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/LoginController.java:114:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:25:	This class has too many methods, consider refactoring it.
+src/com/capgemini/ars/controller/UserController.java:25:	headerCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:26:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/controller/UserController.java:27:	fieldCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:28:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/controller/UserController.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/controller/UserController.java:28:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/controller/UserController.java:28:	fieldCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/controller/UserController.java:29:	The Logger variable declaration does not contain the static and final modifiers
+src/com/capgemini/ars/controller/UserController.java:29:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/controller/UserController.java:29:	fieldCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:30:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:34:	Parameter 'userServ' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:34:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:38:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/capgemini/ars/controller/UserController.java:38:	Document empty constructor
+src/com/capgemini/ars/controller/UserController.java:38:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:42:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:42:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:49:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:49:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:50:	The String literal "errObj" appears 19 times in this file; the first occurrence is on line 50
+src/com/capgemini/ars/controller/UserController.java:51:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:51:	The String literal "Error" appears 19 times in this file; the first occurrence is on line 51
+src/com/capgemini/ars/controller/UserController.java:53:	Local variable 'flightInfo' could be declared final
+src/com/capgemini/ars/controller/UserController.java:54:	The String literal "flightInfo" appears 4 times in this file; the first occurrence is on line 54
+src/com/capgemini/ars/controller/UserController.java:55:	Local variable 'date1' could be declared final
+src/com/capgemini/ars/controller/UserController.java:55:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/controller/UserController.java:56:	Local variable 'date2' could be declared final
+src/com/capgemini/ars/controller/UserController.java:56:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:63:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:64:	Parameter 'flightInfo' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:65:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:66:	Local variable 'date1' could be declared final
+src/com/capgemini/ars/controller/UserController.java:69:	Found 'DD'-anomaly for variable 'flightList' (lines '69'-'71').
+src/com/capgemini/ars/controller/UserController.java:71:	Found 'DU'-anomaly for variable 'flightList' (lines '71'-'90').
+src/com/capgemini/ars/controller/UserController.java:75:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:77:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:80:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:80:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/com/capgemini/ars/controller/UserController.java:85:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:87:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:93:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:94:	Parameter 'flightInfo' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:95:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:95:	Parameter 'result' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:96:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/capgemini/ars/controller/UserController.java:97:	Found 'DD'-anomaly for variable 'selectedFlight' (lines '97'-'100').
+src/com/capgemini/ars/controller/UserController.java:98:	Local variable 'flight' could be declared final
+src/com/capgemini/ars/controller/UserController.java:100:	Found 'DU'-anomaly for variable 'selectedFlight' (lines '100'-'161').
+src/com/capgemini/ars/controller/UserController.java:102:	The String literal "Due to some technical problems, booking cannot be done.." appears 4 times in this file; the first occurrence is on line 102
+src/com/capgemini/ars/controller/UserController.java:103:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:105:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:107:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:108:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:109:	Local variable 'bookBean' could be declared final
+src/com/capgemini/ars/controller/UserController.java:110:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:111:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:112:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:113:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:113:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:114:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:114:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:115:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:115:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:117:	Local variable 'passengers' could be declared final
+src/com/capgemini/ars/controller/UserController.java:118:	Local variable 'classType' could be declared final
+src/com/capgemini/ars/controller/UserController.java:119:	Local variable 'seatNo' could be declared final
+src/com/capgemini/ars/controller/UserController.java:120:	Position literals first in String comparisons for EqualsIgnoreCase
+src/com/capgemini/ars/controller/UserController.java:120:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:122:	Avoid appending characters as strings in StringBuffer.append.
+src/com/capgemini/ars/controller/UserController.java:122:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:123:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:124:	Avoid appending characters as strings in StringBuffer.append.
+src/com/capgemini/ars/controller/UserController.java:124:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:128:	Avoid appending characters as strings in StringBuffer.append.
+src/com/capgemini/ars/controller/UserController.java:128:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:129:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:130:	Avoid appending characters as strings in StringBuffer.append.
+src/com/capgemini/ars/controller/UserController.java:130:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:134:	Local variable 'seatNumber' could be declared final
+src/com/capgemini/ars/controller/UserController.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:136:	Position literals first in String comparisons for EqualsIgnoreCase
+src/com/capgemini/ars/controller/UserController.java:136:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:137:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:137:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:140:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:140:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:146:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:147:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:147:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:149:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:151:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:153:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:155:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:157:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:164:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:165:	Parameter 'flightInfo' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:166:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:167:	Found 'DD'-anomaly for variable 'selectedFlight' (lines '167'-'170').
+src/com/capgemini/ars/controller/UserController.java:168:	Local variable 'flight' could be declared final
+src/com/capgemini/ars/controller/UserController.java:170:	Found 'DU'-anomaly for variable 'selectedFlight' (lines '170'-'181').
+src/com/capgemini/ars/controller/UserController.java:173:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:175:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:177:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:184:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:184:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:189:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:189:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:190:	Local variable 'bookBean' could be declared final
+src/com/capgemini/ars/controller/UserController.java:196:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:197:	Parameter 'bookBean' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:198:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:199:	Local variable 'bookingId' could be declared final
+src/com/capgemini/ars/controller/UserController.java:200:	Avoid excessively long variable names like rescheduleBookInfoBean
+src/com/capgemini/ars/controller/UserController.java:200:	Found 'DD'-anomaly for variable 'rescheduleBookInfoBean' (lines '200'-'202').
+src/com/capgemini/ars/controller/UserController.java:202:	Found 'DU'-anomaly for variable 'rescheduleBookInfoBean' (lines '202'-'226').
+src/com/capgemini/ars/controller/UserController.java:204:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:205:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:205:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:207:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:210:	Avoid if (x != y) ..; else ..;
+src/com/capgemini/ars/controller/UserController.java:216:	The String literal "rescheduleBookInfoBean" appears 7 times in this file; the first occurrence is on line 216
+src/com/capgemini/ars/controller/UserController.java:220:	The String literal "No record Found....Please Enter valid booking id" appears 4 times in this file; the first occurrence is on line 220
+src/com/capgemini/ars/controller/UserController.java:221:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:223:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:229:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:230:	Avoid excessively long variable names like rescheduleBookInfoBean
+src/com/capgemini/ars/controller/UserController.java:230:	Parameter 'rescheduleBookInfoBean' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:231:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:232:	Local variable 'reschedule' could be declared final
+src/com/capgemini/ars/controller/UserController.java:235:	Local variable 'date1' could be declared final
+src/com/capgemini/ars/controller/UserController.java:235:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/controller/UserController.java:236:	Local variable 'date2' could be declared final
+src/com/capgemini/ars/controller/UserController.java:236:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:239:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:241:	Avoid using if...else statements without curly braces
+src/com/capgemini/ars/controller/UserController.java:245:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:246:	Avoid excessively long variable names like rescheduleBookInfoBean
+src/com/capgemini/ars/controller/UserController.java:246:	Parameter 'rescheduleBookInfoBean' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:247:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:248:	Local variable 'flightInfo' could be declared final
+src/com/capgemini/ars/controller/UserController.java:249:	Local variable 'date1' could be declared final
+src/com/capgemini/ars/controller/UserController.java:250:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:251:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:252:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:253:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:254:	Local variable 'classType' could be declared final
+src/com/capgemini/ars/controller/UserController.java:255:	Local variable 'noOfPassengers' could be declared final
+src/com/capgemini/ars/controller/UserController.java:256:	Found 'DD'-anomaly for variable 'flightList' (lines '256'-'258').
+src/com/capgemini/ars/controller/UserController.java:258:	Found 'DU'-anomaly for variable 'flightList' (lines '258'-'289').
+src/com/capgemini/ars/controller/UserController.java:261:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:262:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:262:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:264:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:266:	Avoid if (x != y) ..; else ..;
+src/com/capgemini/ars/controller/UserController.java:284:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:286:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:292:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:293:	Avoid reassigning parameters such as 'flightNo'
+src/com/capgemini/ars/controller/UserController.java:294:	Avoid excessively long variable names like rescheduleBookInfoBean
+src/com/capgemini/ars/controller/UserController.java:294:	Parameter 'rescheduleBookInfoBean' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:295:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:297:	Local variable 'tempFlight' could be declared final
+src/com/capgemini/ars/controller/UserController.java:306:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:309:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:310:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:310:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:312:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:314:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:321:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:321:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:322:	Avoid excessively long variable names like cancelBookInfoBean
+src/com/capgemini/ars/controller/UserController.java:322:	Local variable 'cancelBookInfoBean' could be declared final
+src/com/capgemini/ars/controller/UserController.java:323:	The String literal "cancelBookInfoBean" appears 4 times in this file; the first occurrence is on line 323
+src/com/capgemini/ars/controller/UserController.java:328:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:329:	Avoid excessively long variable names like cancelBookInfoBean
+src/com/capgemini/ars/controller/UserController.java:329:	Avoid reassigning parameters such as 'cancelBookInfoBean'
+src/com/capgemini/ars/controller/UserController.java:330:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:335:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:336:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:336:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:338:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:340:	Avoid if (x != y) ..; else ..;
+src/com/capgemini/ars/controller/UserController.java:344:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:346:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:352:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:353:	Avoid excessively long variable names like cancelBookInfoBean
+src/com/capgemini/ars/controller/UserController.java:353:	Parameter 'cancelBookInfoBean' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:354:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:360:	Local variable 'msgObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:364:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:367:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:369:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:377:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:377:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:378:	Local variable 'viewFlight' could be declared final
+src/com/capgemini/ars/controller/UserController.java:384:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/controller/UserController.java:385:	Parameter 'viewFlight' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:386:	Parameter 'model' is not assigned and could be declared final
+src/com/capgemini/ars/controller/UserController.java:387:	Found 'DD'-anomaly for variable 'viewBookInfoBean' (lines '387'-'389').
+src/com/capgemini/ars/controller/UserController.java:389:	Found 'DU'-anomaly for variable 'viewBookInfoBean' (lines '389'-'417').
+src/com/capgemini/ars/controller/UserController.java:392:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:393:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:393:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:395:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:397:	Avoid if (x != y) ..; else ..;
+src/com/capgemini/ars/controller/UserController.java:401:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:403:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:404:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:404:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/controller/UserController.java:406:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/controller/UserController.java:412:	Local variable 'errObj' could be declared final
+src/com/capgemini/ars/controller/UserController.java:414:	A method should have only one exit point, and that should be the last statement in the method
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:22:	This class has too many methods, consider refactoring it.
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:22:	headerCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:23:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:24:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:25:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:25:	Avoid using redundant field initializer for 'flightList'
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:25:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:25:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:26:	Avoid using redundant field initializer for 'flightDetails'
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:26:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:26:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:27:	Avoid using redundant field initializer for 'bookingDetails'
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:27:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:27:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:28:	Avoid using redundant field initializer for 'userDetails'
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:28:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:28:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:29:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:29:	Avoid using redundant field initializer for 'cityList'
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:29:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:29:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:30:	The Logger variable declaration does not contain the static and final modifiers
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:30:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:30:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:32:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:32:	Document empty constructor
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:32:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:36:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:37:	Parameter 'classType' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:37:	Parameter 'flightInfo' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:38:	Parameter 'noOfPassengers' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:39:	Position literals first in String comparisons for EqualsIgnoreCase
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:40:	Local variable 'fetchFlightQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:42:	Avoid variables with short names like tq
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:42:	Local variable 'tq' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:47:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:49:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:51:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:53:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:58:	The String literal "entity manager is closed" appears 17 times in this file; the first occurrence is on line 58
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:62:	Position literals first in String comparisons for EqualsIgnoreCase
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:63:	Local variable 'fetchFlightQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:65:	Avoid variables with short names like tq
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:65:	Local variable 'tq' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:71:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:72:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:74:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:75:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:76:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:88:	Parameter 'bookingInfo' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:88:	Parameter 'passengers' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:88:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:92:	Local variable 'bookingId' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:93:	Consider simply returning the value vs storing it in local variable 'bookingId'
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:96:	Parameter 'bookingInfo' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:96:	Parameter 'passengers' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:99:	Local variable 'updateQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:101:	Local variable 'qry' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:103:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:105:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:107:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:114:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:115:	Local variable 'updateQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:117:	Local variable 'qry' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:119:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:120:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:121:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:123:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:133:	Parameter 'bookingInfo' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:133:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:138:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:140:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:151:	Parameter 'bookingInfo' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:151:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:152:	Parameter 'flightNo' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:152:	Parameter 'passengers' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:157:	Local variable 'updateQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:159:	Local variable 'qry' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:160:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:161:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:162:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:163:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:165:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:175:	Parameter 'bookingInfo' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:175:	Parameter 'passengers' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:177:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:178:	Local variable 'updateQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:180:	Local variable 'qry' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:181:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:182:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:183:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:184:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:186:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:193:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:194:	Local variable 'updateQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:196:	Local variable 'qry' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:197:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:198:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:199:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:200:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:202:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:214:	Parameter 'bookingId' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:214:	Parameter 'passengers' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:214:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:221:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:222:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:223:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:223:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:235:	Parameter 'bookingId' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:235:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:240:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:241:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:242:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:242:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:253:	Parameter 'userDetails' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:253:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:257:	Found 'DU'-anomaly for variable 'usr' (lines '257'-'274').
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:258:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:259:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:260:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:260:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:267:	Potential violation of Law of Demeter (method chain calls)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:267:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:268:	Avoid using if...else statements without curly braces
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:277:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:278:	Parameter 'airline' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:278:	Parameter 'deptDate1' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:278:	Parameter 'deptDate2' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:278:	Parameter 'deptTime1' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:279:	Parameter 'deptTime2' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:282:	Local variable 'fetchFlightQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:284:	Avoid variables with short names like tq
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:284:	Local variable 'tq' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:286:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:287:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:288:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:289:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:290:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:291:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:292:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:293:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:294:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:294:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:305:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:306:	Parameter 'destCity' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:306:	Parameter 'srcCity' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:307:	Local variable 'fetchFlightQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:309:	Avoid variables with short names like tq
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:309:	Local variable 'tq' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:311:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:312:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:313:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:314:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:315:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:316:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:316:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:327:	Parameter 'flightInfo' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:327:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:339:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:341:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:352:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:354:	Local variable 'fetchFlightQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:356:	Avoid variables with short names like tq
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:356:	Local variable 'tq' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:358:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:359:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:360:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:361:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:361:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:372:	Parameter 'flightNo' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:372:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:379:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:381:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:382:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:382:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:394:	Parameter 'bean' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:394:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:395:	Found 'DD'-anomaly for variable 'dataUpdated' (lines '395'-'412').
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:398:	Local variable 'updateQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:400:	Local variable 'qry' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:401:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:402:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:403:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:404:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:405:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:406:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:407:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:408:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:409:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:410:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:411:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:412:	Found 'DU'-anomaly for variable 'dataUpdated' (lines '412'-'423').
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:412:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:413:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:414:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:415:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:415:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:426:	Parameter 'flightNo' is not assigned and could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:426:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:432:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:433:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:434:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:434:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:445:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:446:	Local variable 'fetchCityQuery' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:448:	Avoid variables with short names like tq
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:448:	Local variable 'tq' could be declared final
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:450:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:451:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:452:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:453:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/dao/AirlineDaoImpl.java:453:	Potential violation of Law of Demeter (object not created locally)
+src/com/capgemini/ars/dao/IAirlineDao.java:11:	This class has too many methods, consider refactoring it.
+src/com/capgemini/ars/dao/IAirlineDao.java:11:	headerCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:13:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IAirlineDao.java:13:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/dao/IAirlineDao.java:13:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:17:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IAirlineDao.java:17:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:20:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IAirlineDao.java:20:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:23:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IAirlineDao.java:23:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:26:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IAirlineDao.java:26:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/dao/IAirlineDao.java:26:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:29:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IAirlineDao.java:29:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:32:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IAirlineDao.java:32:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/dao/IAirlineDao.java:32:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:35:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IAirlineDao.java:35:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:38:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IAirlineDao.java:38:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:40:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:43:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:45:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IAirlineDao.java:45:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/dao/IAirlineDao.java:45:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:47:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IAirlineDao.java:50:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/dao/IAirlineDao.java:50:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/dao/IQueryMapper.java:3:	An Interface should be used only to model a behaviour; consider converting this to a class.
+src/com/capgemini/ars/dao/IQueryMapper.java:3:	headerCommentRequirement Required
+src/com/capgemini/ars/dao/IQueryMapper.java:5:	Comment is too large: Line too long
+src/com/capgemini/ars/dao/IQueryMapper.java:6:	Avoid excessively long variable names like CHECK_FIRST_CLASS_AVAILABILITY
+src/com/capgemini/ars/dao/IQueryMapper.java:6:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:7:	Avoid excessively long variable names like CHECK_BUSINESS_CLASS_AVAILABILITY
+src/com/capgemini/ars/dao/IQueryMapper.java:7:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:7:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/IQueryMapper.java:8:	Avoid excessively long variable names like DEC_FIRST_CLASS_OCCUPANCY
+src/com/capgemini/ars/dao/IQueryMapper.java:8:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:8:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/IQueryMapper.java:9:	Avoid excessively long variable names like DEC_BUSINESS_CLASS_OCCUPANCY
+src/com/capgemini/ars/dao/IQueryMapper.java:9:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:9:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/IQueryMapper.java:10:	Avoid excessively long variable names like UPDATE_BOOKING_INFORMATION
+src/com/capgemini/ars/dao/IQueryMapper.java:10:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:10:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/IQueryMapper.java:11:	Avoid excessively long variable names like INC_FIRST_CLASS_OCCUPANCY
+src/com/capgemini/ars/dao/IQueryMapper.java:11:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:11:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/IQueryMapper.java:12:	Avoid excessively long variable names like INC_BUSINESS_CLASS_OCCUPANCY
+src/com/capgemini/ars/dao/IQueryMapper.java:12:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:12:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/IQueryMapper.java:14:	Comment is too large: Line too long
+src/com/capgemini/ars/dao/IQueryMapper.java:16:	Avoid excessively long variable names like FETCH_FLIGHT_GIVEN_AIRLINE_AND_PERIOD
+src/com/capgemini/ars/dao/IQueryMapper.java:16:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:17:	Avoid excessively long variable names like FETCH_FLIGHT_GIVEN_SOURCE_AND_DESTINATION
+src/com/capgemini/ars/dao/IQueryMapper.java:17:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:17:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/IQueryMapper.java:19:	Comment is too large: Line too long
+src/com/capgemini/ars/dao/IQueryMapper.java:20:	Avoid excessively long variable names like RETRIEVE_ALL_FLIGHTS
+src/com/capgemini/ars/dao/IQueryMapper.java:20:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:21:	Avoid excessively long variable names like UPDATE_FLIGHT_DETAILS
+src/com/capgemini/ars/dao/IQueryMapper.java:21:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:21:	fieldCommentRequirement Required
+src/com/capgemini/ars/dao/IQueryMapper.java:22:	Avoid excessively long variable names like RETRIEVE_ALL_LOCATIONS
+src/com/capgemini/ars/dao/IQueryMapper.java:22:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/dao/IQueryMapper.java:22:	fieldCommentRequirement Required
+src/com/capgemini/ars/exception/AirlineException.java:3:	headerCommentRequirement Required
+src/com/capgemini/ars/exception/AirlineException.java:5:	fieldCommentRequirement Required
+src/com/capgemini/ars/exception/AirlineException.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/exception/AirlineException.java:6:	Private field 'message' could be made final; it is only initialized in the declaration or constructor.
+src/com/capgemini/ars/exception/AirlineException.java:6:	fieldCommentRequirement Required
+src/com/capgemini/ars/exception/AirlineException.java:8:	Parameter 'message' is not assigned and could be declared final
+src/com/capgemini/ars/exception/AirlineException.java:8:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/exception/AirlineException.java:14:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:13:	headerCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:15:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/service/AdminServiceImpl.java:16:	fieldCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:18:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:22:	Parameter 'airlineDao' is not assigned and could be declared final
+src/com/capgemini/ars/service/AdminServiceImpl.java:22:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:26:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/capgemini/ars/service/AdminServiceImpl.java:26:	Document empty constructor
+src/com/capgemini/ars/service/AdminServiceImpl.java:26:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:30:	Parameter 'flightInfo' is not assigned and could be declared final
+src/com/capgemini/ars/service/AdminServiceImpl.java:30:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:36:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:43:	Parameter 'flightNo' is not assigned and could be declared final
+src/com/capgemini/ars/service/AdminServiceImpl.java:43:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:50:	Parameter 'bean' is not assigned and could be declared final
+src/com/capgemini/ars/service/AdminServiceImpl.java:50:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:56:	Parameter 'flightNo' is not assigned and could be declared final
+src/com/capgemini/ars/service/AdminServiceImpl.java:56:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:62:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AdminServiceImpl.java:63:	Local variable 'cityList' could be declared final
+src/com/capgemini/ars/service/AdminServiceImpl.java:64:	Consider simply returning the value vs storing it in local variable 'cityList'
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:14:	headerCommentRequirement Required
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:16:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:17:	fieldCommentRequirement Required
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:19:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:23:	Parameter 'airlineDao' is not assigned and could be declared final
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:23:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:27:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:27:	Document empty constructor
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:27:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:31:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:32:	Parameter 'airline' is not assigned and could be declared final
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:32:	Parameter 'arrDate' is not assigned and could be declared final
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:32:	Parameter 'deptDate' is not assigned and could be declared final
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:32:	Parameter 'deptTime' is not assigned and could be declared final
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:33:	Parameter 'arrTime' is not assigned and could be declared final
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:40:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:41:	Parameter 'destCity' is not assigned and could be declared final
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:41:	Parameter 'srcCity' is not assigned and could be declared final
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:47:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:48:	Local variable 'cityList' could be declared final
+src/com/capgemini/ars/service/AirlineExecutiveServiceImpl.java:49:	Consider simply returning the value vs storing it in local variable 'cityList'
+src/com/capgemini/ars/service/IAdminService.java:8:	headerCommentRequirement Required
+src/com/capgemini/ars/service/IAdminService.java:10:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IAdminService.java:10:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IAdminService.java:13:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IAdminService.java:13:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/service/IAdminService.java:13:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IAdminService.java:16:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IAdminService.java:16:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IAdminService.java:19:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IAdminService.java:19:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IAdminService.java:21:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IAdminService.java:23:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IAdminService.java:23:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/service/IAdminService.java:23:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IAirlineExecutiveService.java:9:	headerCommentRequirement Required
+src/com/capgemini/ars/service/IAirlineExecutiveService.java:11:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IAirlineExecutiveService.java:11:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/service/IAirlineExecutiveService.java:11:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IAirlineExecutiveService.java:14:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IAirlineExecutiveService.java:14:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/service/IAirlineExecutiveService.java:14:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IAirlineExecutiveService.java:16:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/service/IAirlineExecutiveService.java:16:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/ILoginService.java:6:	headerCommentRequirement Required
+src/com/capgemini/ars/service/ILoginService.java:8:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/ILoginService.java:8:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IUserService.java:9:	headerCommentRequirement Required
+src/com/capgemini/ars/service/IUserService.java:10:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IUserService.java:10:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/service/IUserService.java:10:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IUserService.java:14:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IUserService.java:14:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IUserService.java:17:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IUserService.java:17:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IUserService.java:20:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IUserService.java:20:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IUserService.java:23:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IUserService.java:26:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/IUserService.java:29:	Avoid modifiers which are implied by the context
+src/com/capgemini/ars/service/IUserService.java:29:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/capgemini/ars/service/IUserService.java:29:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/LoginServiceImpl.java:11:	Each class should declare at least one constructor
+src/com/capgemini/ars/service/LoginServiceImpl.java:11:	headerCommentRequirement Required
+src/com/capgemini/ars/service/LoginServiceImpl.java:13:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/service/LoginServiceImpl.java:14:	fieldCommentRequirement Required
+src/com/capgemini/ars/service/LoginServiceImpl.java:16:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/LoginServiceImpl.java:20:	Parameter 'airlineDao' is not assigned and could be declared final
+src/com/capgemini/ars/service/LoginServiceImpl.java:20:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/LoginServiceImpl.java:25:	Parameter 'userDetails' is not assigned and could be declared final
+src/com/capgemini/ars/service/LoginServiceImpl.java:25:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:14:	headerCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:15:	Use explicit scoping instead of the default package private level
+src/com/capgemini/ars/service/UserServiceImpl.java:16:	fieldCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:18:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:22:	Parameter 'airlineDao' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:22:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:26:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/capgemini/ars/service/UserServiceImpl.java:26:	Document empty constructor
+src/com/capgemini/ars/service/UserServiceImpl.java:26:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:30:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:31:	Parameter 'classType' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:31:	Parameter 'flightInfo' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:32:	Parameter 'noOfPassengers' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:38:	Parameter 'bookingInfo' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:38:	Parameter 'passengers' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:38:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:44:	Parameter 'bookingInfo' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:44:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:45:	Parameter 'flightNo' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:45:	Parameter 'passengers' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:51:	Parameter 'bookingId' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:51:	Parameter 'passengers' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:51:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:58:	Parameter 'bookingId' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:58:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:65:	Parameter 'selectedFlight' is not assigned and could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:65:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:72:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/service/UserServiceImpl.java:73:	Local variable 'cityList' could be declared final
+src/com/capgemini/ars/service/UserServiceImpl.java:74:	Consider simply returning the value vs storing it in local variable 'cityList'
+src/com/capgemini/ars/util/DBUtil.java:9:	headerCommentRequirement Required
+src/com/capgemini/ars/util/DBUtil.java:11:	fieldCommentRequirement Required
+src/com/capgemini/ars/util/DBUtil.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/capgemini/ars/util/DBUtil.java:13:	fieldCommentRequirement Required
+src/com/capgemini/ars/util/DBUtil.java:17:	Local variable 'context' could be declared final
+src/com/capgemini/ars/util/DBUtil.java:20:	New exception is thrown in catch block, original stack trace may be lost
+src/com/capgemini/ars/util/DBUtil.java:24:	Use block level rather than method level synchronization
+src/com/capgemini/ars/util/DBUtil.java:24:	publicMethodCommentRequirement Required
+src/com/capgemini/ars/util/DBUtil.java:26:	Avoid using if statements without curly braces
+src/com/capgemini/ars/util/DBUtil.java:31:	publicMethodCommentRequirement Required

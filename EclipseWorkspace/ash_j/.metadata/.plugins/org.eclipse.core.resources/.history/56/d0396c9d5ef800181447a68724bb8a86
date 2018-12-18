@@ -1,0 +1,12 @@
+ack;
+
+public class fin_2 extends final_examp{
+	
+		void mtd(final int a){ /*ERROR BECAUSE THIS SUB CLASS CANNOT
+			                     OVERWRITE METHOD INITIALISED AS FINAL IN SUPER CLASS*/
+			
+		}
+	}
+
+	
+

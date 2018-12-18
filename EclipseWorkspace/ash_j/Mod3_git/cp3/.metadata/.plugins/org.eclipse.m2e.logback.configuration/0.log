@@ -1,0 +1,35 @@
+2018-12-10 08:52:20,495 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\eclipse_luna_64bit\eclipse\ash_j\Mod3_git\cp3\employee-code-module\pom.xml
+2018-12-10 08:52:23,479 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg:employee-code-module:0.0.1-SNAPSHOT @ D:\eclipse_luna_64bit\eclipse\ash_j\Mod3_git\cp3\employee-code-module\pom.xml.
+2018-12-10 08:52:24,744 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /employee-code-module/src/main/java
+2018-12-10 08:52:24,744 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /employee-code-module/src/test/java
+2018-12-10 08:52:24,994 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg:employee-code-module:0.0.1-SNAPSHOT @ D:\eclipse_luna_64bit\eclipse\ash_j\Mod3_git\cp3\employee-code-module\pom.xml.
+2018-12-10 08:52:25,735 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2018-12-10 08:52:26,922 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg:employee-code-module:0.0.1-SNAPSHOT @ D:\eclipse_luna_64bit\eclipse\ash_j\Mod3_git\cp3\employee-code-module\pom.xml.
+2018-12-10 08:52:27,000 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 08:52:27,000 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\eclipse_luna_64bit\eclipse\ash_j\Mod3_git\cp3\employee-code-module\src\main\resources
+2018-12-10 08:52:27,000 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 08:52:27,000 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\eclipse_luna_64bit\eclipse\ash_j\Mod3_git\cp3\employee-code-module\src\test\resources
+2018-12-10 09:13:46,531 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg.expenseclaimdetailsmodule:expense-claim-details-module:0.0.1-SNAPSHOT @ C:\Users\ashwishe\Desktop\pp\demo\pom.xml.
+2018-12-10 09:13:51,766 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /expense-claim-details-module/src/main/java
+2018-12-10 09:13:51,766 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /expense-claim-details-module/src/main/resources
+2018-12-10 09:13:51,766 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /expense-claim-details-module/src/main/resources
+2018-12-10 09:13:51,766 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /expense-claim-details-module/src/test/java
+2018-12-10 09:13:52,375 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg.expenseclaimdetailsmodule:expense-claim-details-module:0.0.1-SNAPSHOT @ C:\Users\ashwishe\Desktop\pp\demo\pom.xml.
+2018-12-10 09:13:53,547 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2018-12-10 09:13:59,078 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 09:13:59,078 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-10 09:13:59,094 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 09:13:59,109 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 09:13:59,109 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ashwishe\Desktop\pp\demo\src\test\resources
+2018-12-10 09:14:04,156 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 09:14:04,172 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 09:14:04,172 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 09:14:04,172 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 09:14:04,172 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ashwishe\Desktop\pp\demo\src\test\resources
+2018-12-10 09:14:30,593 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg:employee-code-module:0.0.1-SNAPSHOT @ C:\Users\ashwishe\Desktop\pp\EmployeeCodeModule\pom.xml.
+2018-12-10 09:14:35,140 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /employee-code-module/src/main/java
+2018-12-10 09:14:35,140 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /employee-code-module/src/main/resources
+2018-12-10 09:14:35,140 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /employee-code-module/src/main/resources
+2018-12-10 09:14:35,140 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /employee-code-module/src/test/java
+2018-12-10 09:14:36,218 [Worker-23] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2018-12-10 09:14:36,859 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg:employee-code-module:0.0.1-SNAPSHOT @ C:\Users\ashwishe\Desktop\pp\EmployeeCodeModule\pom.xml.

@@ -1,0 +1,30 @@
+package com.cg.ecm.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cg.ecm.dao.EMCDao;
+import com.cg.ecm.entity.ExpenseDetails;
+@Service
+public class ECMServiceImpl implements ECMService{
+@Autowired
+	private EMCDao dao;
+	@Override
+	public ExpenseDetails addDetails(ExpenseDetails expdetails) {
+		
+		return dao.addDetails(expdetails);
+	}
+	@Override
+	public List<ExpenseDetails> getAllDetails() {
+		
+		return dao.getAllDetails();
+	}
+	@Override
+	public ExpenseDetails getByCode(int expenseCode) {
+		// TODO Auto-generated method stub
+		return dao.getByCode(expenseCode);
+	}
+
+}

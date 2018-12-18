@@ -1,0 +1,26 @@
+package com.cg.ems;
+
+import java.util.List;
+
+import javax.jws.WebService;
+
+@WebService(endpointInterface = "com.cg.ems.IEmployeeService")
+public class EmployeeServiceImpl implements IEmployeeService {
+
+	String eDes = "invalid";
+
+	@Override
+	public String getDesignation(String name) {
+		List<Employee> list = EmployeeDB.getList();
+
+		for (Employee emp2 : list) {
+			if (emp2.getName().equalsIgnoreCase(name)) {
+				eDes = emp2.getDesig();
+			}
+
+		}
+
+		return eDes;
+	}
+
+}

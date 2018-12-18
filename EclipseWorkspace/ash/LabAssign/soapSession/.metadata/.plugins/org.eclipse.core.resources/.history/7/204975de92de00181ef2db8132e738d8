@@ -1,0 +1,22 @@
+package com.cg.ems;
+
+import java.util.List;
+
+public class EmployeeServiceImpl implements IEmployeeService{
+
+
+	@Override
+	public String getDesig(String name) {
+		String eName;
+		List<EmployeeDB> emp=EmployeeDB.list();
+		for(Employee emp2:emp){
+			if(emp2.getName()=="name"){
+			 eName=emp2.getName();
+			}else{
+				eName="Not found";
+			}
+		}
+		return eName;
+	}
+
+}

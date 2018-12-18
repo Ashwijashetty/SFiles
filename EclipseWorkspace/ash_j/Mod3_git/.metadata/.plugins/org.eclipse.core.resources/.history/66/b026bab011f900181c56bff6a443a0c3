@@ -1,0 +1,9 @@
+package com.cg.ecm.service;
+
+import com.cg.ecm.entity.ExpenseDetails;
+
+public interface ECMService {
+
+	ExpenseDetails addDetails(ExpenseDetails expdetails);
+
+}

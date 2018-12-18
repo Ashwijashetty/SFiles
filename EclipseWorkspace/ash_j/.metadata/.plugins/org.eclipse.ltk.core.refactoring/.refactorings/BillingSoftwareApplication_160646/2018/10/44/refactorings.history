@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;NewP/resources&apos;&#x0D;&#x0A;- Original project: &apos;BillingSoftwareApplication_160646&apos;&#x0D;&#x0A;- Destination element: &apos;NewP/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     jdbc.properties&#x0D;&#x0A;     log4j.properties" description="Copy files" destination="=NewP/resources" element1="resources/jdbc.properties" element2="resources/log4j.properties" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1540988926023" units="0" version="1.0"/>
+</session>

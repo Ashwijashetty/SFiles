@@ -1,0 +1,16 @@
+package com.cg.Employee.entity;
+
+import java.util.Date;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+public class Employee {
+@Id
+	private String emp_id;
+private String name;
+private int age;
+private String designation;
+private Date dob;
+}

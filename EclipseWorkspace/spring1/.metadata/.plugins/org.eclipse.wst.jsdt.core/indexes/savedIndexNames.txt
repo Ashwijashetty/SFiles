@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+D:\eclipse_luna_64bit\eclipse\spring1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2745966248.index
+1611897424.index
+1023922175.index
+4268978009.index
+4233428764.index
+3627576140.index

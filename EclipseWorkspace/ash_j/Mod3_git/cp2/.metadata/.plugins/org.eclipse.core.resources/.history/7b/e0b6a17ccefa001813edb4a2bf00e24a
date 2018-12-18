@@ -1,0 +1,51 @@
+version: '2.1'
+services:
+  eureka-server:
+    image: falcon007/spring-eureka-server:1.0.0
+    ports:
+      - "8761:8761"
+   
+  ExpenseClaimDetailsModule-gateway:
+    image: falcon007/spring-eureka-student-client:1.0.0
+    ports:
+      - "8888:8888"
+    environment:
+      SPRING_APPLICATION_NAME: ExpenseClaimDetailsModule-gateway
+      EUREKA_INSTANCE_PREFER_IP_ADDRESS: "true"
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:8761/eureka/
+    links:
+      - "eureka-server"
+      
+  ECM:
+    image: falcon007/spring-eureka-school-client:1.0.0
+    ports:
+      - "8102:8102"
+    environment:
+      SPRING_APPLICATION_NAME: ECM
+      EUREKA_INSTANCE_PREFER_IP_ADDRESS: "true"
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:8761/eureka/
+    links:
+      - "eureka-server"
+  Employee:
+    image: falcon007/spring-eureka-school-client:1.0.0
+    ports:
+      - "9000:9000"
+    environment:
+      SPRING_APPLICATION_NAME: Employee
+      EUREKA_INSTANCE_PREFER_IP_ADDRESS: "true"
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:8761/eureka/
+    links:
+      - "eureka-server"
+  PCM:
+    image: falcon007/spring-eureka-school-client:1.0.0
+    ports:
+      - "9000:9000"
+    environment:
+      SPRING_APPLICATION_NAME: PCM
+      EUREKA_INSTANCE_PREFER_IP_ADDRESS: "true"
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:8761/eureka/
+    links:
+      - "eureka-server"      
+volumes:
+  installation:
+     external: false

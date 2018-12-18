@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script src ="js/HomeScript.js"></script>
+<link rel ="stylesheet" href ="css/HomePageStyle.css">
+<title>Airline Reservation System</title>
+</head>
+<body>
+	<nav class="menubar"> 
+	<a class="menuitem" href="#home">Home</a> |
+	<a class="menuitem" href="about">AboutUs</a> | 
+	<a class="menuitem" href="contactus">ContactUs</a>
+	</nav> 
+	<section class="contentarea">
+	<form method="post" action="reg.php" name = "frm" onsubmit="return validateHome(this)">
+		<table id ="table">
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan = "2">
+					<input type="radio" id="roundtrip" name="traveltype" value="RoundTrip" checked/>RoundTrip
+					<input type="radio" id="oneway" name="traveltype" value="OneWay"/>OneWay
+					</td>
+				</tr>
+				<tr>
+					<td>Origin</td>
+					<td><select id="org">
+							<option value=""> --Select--
+							</option>
+							<option value="IN">India
+							</option>
+							<option value="AUS">Australia
+							</option>
+							<option value="US">United States
+							</option>
+							<option value="UK">United Kingdom
+							</option>
+					</select></td>
+					<td>Destination</td>
+					<td><select id="org">
+							<option value=""> --Select--
+							</option>
+							<option value="IN">India
+							</option>
+							<option value="AUS">Australia
+							</option>
+							<option value="US" >United States
+							</option>
+							<option value="UK" >United Kingdom
+							</option>
+					</select></td>
+					<td id="placerr" class="error"></td>
+				</tr>
+				<tr>
+
+					<td>Date of Journey</td>
+					<td><input type="date" id="doj" /></td>
+					<td>Date of Return</td>
+					<td><input type="date" id="dor" /></td>
+					<td id="daterr" class="error"></td>
+				</tr>
+				<tr>
+					<td><select id="adult">
+							<option value="1">1 Adult
+							</option>
+							<option value="2" >2 Adult
+							</option>
+							<option value="3" >3 Adult
+							</option>
+							<option value="4" >4 Adult
+							</option>
+							<option value="5" >5 Adult
+							</option>
+							<option value="6" >6 Adult
+							</option>
+					</select></td>
+					<td><select id="children">
+							<option value="0" > 0 Children
+							</option>
+							<option value="1" >1 Children
+							</option>
+							<option value="2" >2 Children
+							</option>
+							<option value="3" >3 Children
+							</option>
+							<option value="4" >4 Children
+							</option>
+					</select></td>
+					<td><select id="infant">
+							<option value="0" > 0 Infant
+							</option>
+							<option value="1" >1 Infant
+							</option>
+							<option value="2" >2 Infant
+							</option>
+							<option value="3" >3 Infant
+							</option>
+							<option value="4" >4 Infant
+							</option>
+							<option value="UK" >5 Adult
+							</option>
+							<option value="UK" >6 Adult
+							</option>
+					</select></td>
+					<td id="cnterr" class="error"></td>
+				</tr>
+				<tr>
+					
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th colspan="3">
+						<button type="submit" id="btnsub">Submit</button>
+						<button type="reset" id="btnreset">Reset</button>
+					</th>
+				</tr>
+			</tfoot>
+		</table>
+	</form>
+	</section>
+	<br />
+	<footer class="footer"> Copyright Reserved &copy;<br />
+	<a href="#Faq">FAQ</a> | <a href="#Terms&Conditions">Terms & Conditions</a> | <a href="#FeedBack">FeedBack</a> | | <a href="#CustomerSupport">24*7CustomerSupport</a>
+	</footer>
+</body>
+</html>

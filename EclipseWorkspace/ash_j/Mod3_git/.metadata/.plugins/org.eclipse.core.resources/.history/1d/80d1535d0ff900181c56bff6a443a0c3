@@ -1,0 +1,13 @@
+package com.cg.ecm.service;
+
+import com.cg.ecm.entity.ExpenseDetails;
+
+public class ECMServiceImpl implements ECMService{
+
+	@Override
+	public ExpenseDetails addDetails(ExpenseDetails expdetails) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

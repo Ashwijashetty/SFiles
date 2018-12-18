@@ -1,0 +1,26 @@
+package com.cg.TDS.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.stereotype.Repository;
+
+import com.cg.TDS.entity.TdsDetail;
+@Repository
+public class TdsDaoImpl implements TdsDao{
+	@Autowired
+private MongoTemplate mongoTemplate;
+	/*@Override
+	public TdsDetail addTds(TdsDetail tdsDetail) {
+		mongoTemplate.save(tdsDetail);
+		return tdsDetail;
+	}*/
+	@Override
+	public TdsDetail fetchTdsDetail(int uniqueId) {
+		Query query = new Query();
+		query.addCriteria(Criteria.where("_id").is(uniqueId));
+		return mongoTemplate.findOne(query, TdsDetail.class);
+	}
+
+}

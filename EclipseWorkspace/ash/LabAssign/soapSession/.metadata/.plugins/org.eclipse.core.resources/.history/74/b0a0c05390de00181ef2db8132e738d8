@@ -1,0 +1,20 @@
+package com.cg.ems;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeDB {
+static List<Employee> list=new ArrayList<Employee>();
+
+list.add(new Employee(1,"ABC","Analyst"));
+list.add(new Employee(1,"XYZ","Sr.Analyst"));
+
+public static List<Employee> getList() {
+	return list;
+}
+
+public static void setList(List<Employee> list) {
+	EmployeeDB.list = list;
+}
+
+}

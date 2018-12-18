@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ExpenseClaimDetailsModule&apos; to &apos;expenseclaimdetailsmodule&apos;" description="Rename resource &apos;ExpenseClaimDetailsModule&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ExpenseClaimDetailsModule" name="expenseclaimdetailsmodule" stamp="1544413084783" updateReferences="true"/>
+</session>

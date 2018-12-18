@@ -1,0 +1,34 @@
+package com.cg.Employee.dao;
+
+import java.util.List;
+
+import javax.management.Query;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.cg.Employee.entity.Employee;
+import com.jayway.jsonpath.Criteria;
+@Repository
+public class EmpDaoImpl implements EmpDao{
+@Autowired
+	private MongoTemplate mongotemplate;
+	@Override
+	public Employee addEmployee(Employee employee) {
+		mongotemplate.save(employee);
+		return employee;
+	}
+	@Override
+	public List<Employee> getAll() {
+		
+		return mongotemplate.findAll(Employee.class);
+	}
+	@Override
+	public Employee getById(String emp_id) {
+Query query=new Query();
+((Object) query).addCriteria(Criteria.where("emp_id").is(emp_id));
+		return null;
+	}
+
+}

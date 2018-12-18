@@ -1,0 +1,67 @@
+
+       /*************************************** CUSTOMER QUERIES **********************************************/
+
+
+1) Write a query to check first class availability ?
+A) public static final String CHECK_FIRST_CLASS_AVAILABILITY = "SELECT f FROM FlightInformationBean f WHERE f.deptCity=:dc AND f.arrCity=:ac AND f.deptDate=:dt AND f.firstSeats>=:fs";
+
+
+2) Write a query to check business class availability?
+A) public static final String CHECK_BUSINESS_CLASS_AVAILABILITY = "SELECT f FROM FlightInformationBean f WHERE f.deptCity=:dc AND f.arrCity=:ac AND f.deptDate=:dt AND f.bussSeats>=:bs";
+
+
+3) Write a query to update flight information based on first seat?
+A) public static final String DEC_FIRST_CLASS_OCCUPANCY = "UPDATE FlightInformationBean f SET firstSeats=firstSeats-:pn WHERE flightNo=:fn";
+
+
+4) Write a query to update flight information based on business class occupancy?
+A) public static final String DEC_BUSINESS_CLASS_OCCUPANCY = "UPDATE FlightInformationBean f SET bussSeats=bussSeats-:pn WHERE flightNo=:fn";
+
+
+
+5) Write a query to update booking information based on booking id?
+A) public static final String UPDATE_BOOKING_INFORMATION = "UPDATE BookingInformationBean b SET b.flightNo=:fn WHERE b.bookingId=:bi";
+
+
+6) Write a query to update previous flight occupancy of first class seat? 
+A) public static final String INC_FIRST_CLASS_OCCUPANCY = "UPDATE FlightInformationBean f SET firstSeats=firstSeats+:pn WHERE flightNo=:fn";
+
+
+7) Write a query to update previous flight occupancy of business class seat?
+A) public static final String INC_BUSINESS_CLASS_OCCUPANCY = "UPDATE FlightInformationBean f SET bussSeats=bussSeats+:pn WHERE flightNo=:fn";
+
+
+	
+	/*************************************** AIRLINE EXECUTIVE QUERIES **********************************************/
+	
+8) Write a query to fetch flight based on given airline and period?
+A) public static final String FETCH_FLIGHT_GIVEN_AIRLINE_AND_PERIOD = "SELECT f FROM FlightInformationBean f WHERE f.airline=:air AND dept_date BETWEEN :fd AND :ld AND dept_time BETWEEN :ft AND :lt";
+
+
+9) Write a query to fetch flight based on source and destination?
+A) public static final String FETCH_FLIGHT_GIVEN_SOURCE_AND_DESTINATION = "SELECT f FROM FlightInformationBean f WHERE dept_city=:dc AND arr_city=:ac";
+	
+	
+	/*************************************** ADMINISTRATOR QUERIES **********************************************/
+	
+
+10) Write a query to retrieve all flights?
+A) public static final String RETRIEVE_ALL_FLIGHTS = "SELECT f FROM FlightInformationBean f";
+
+
+
+11) Write a query to update flight details based on flight no?
+A) public static final String UPDATE_FLIGHT_DETAILS = "UPDATE FlightInformationBean SET dept_city=:dc,arr_city=:ac,dept_date=:dd,arr_date=:ad,dept_time=:dt,arr_time=:at,firstSeats=:fs,firstseatsfare=:fsf,bussseats=:bs,bussseatsfare=:bsf WHERE flightNo =:fn";
+
+
+
+
+	/*************************************** MISCELLANEOUS **********************************************/
+
+12) Write a query to retrieve all cities?
+A) public static final String RETRIEVE_ALL_LOCATIONS = "SELECT f.city FROM LocationBean f";
+
+
+
+
+

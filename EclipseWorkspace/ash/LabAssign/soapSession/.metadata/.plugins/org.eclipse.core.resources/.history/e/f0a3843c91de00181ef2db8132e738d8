@@ -1,0 +1,11 @@
+package com.cg.ems;
+
+public class EmployeeServiceImpl implements IEmployeeService{
+
+	@Override
+	public String getDesig(Employee name) {
+		
+		return null;
+	}
+
+}

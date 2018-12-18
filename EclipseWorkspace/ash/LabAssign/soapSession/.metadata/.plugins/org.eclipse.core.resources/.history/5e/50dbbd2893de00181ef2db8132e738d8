@@ -1,0 +1,7 @@
+package com.cg.ems;
+
+public class EmployeePublish {
+public static void main(String[] args) {
+	
+}
+}

@@ -1,0 +1,7 @@
+package com.cg.ecm.exception;
+
+public class ECMException extends Exception{
+public ECMException(String Exception){
+	super(Exception);
+}
+}

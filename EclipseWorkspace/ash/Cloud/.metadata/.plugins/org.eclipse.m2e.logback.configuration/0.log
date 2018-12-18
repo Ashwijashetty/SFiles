@@ -1,0 +1,17 @@
+2018-12-03 13:13:57,410 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg:TDS_161655:0.0.1-SNAPSHOT @ C:\Users\ashwishe\Desktop\Srinidhi_161655\TDS_161655\pom.xml.
+2018-12-03 13:14:00,379 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TDS_161655/src/main/java
+2018-12-03 13:14:00,379 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /TDS_161655/src/main/resources overlaps with sources folder /TDS_161655/src/main/resources
+2018-12-03 13:14:00,379 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /TDS_161655/src/main/resources overlaps with sources folder /TDS_161655/src/main/resources
+2018-12-03 13:14:00,379 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TDS_161655/src/test/java
+2018-12-03 13:14:01,160 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 15 sec
+2018-12-03 13:14:02,800 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg:TDS_161655:0.0.1-SNAPSHOT @ C:\Users\ashwishe\Desktop\Srinidhi_161655\TDS_161655\pom.xml.
+2018-12-03 13:14:03,722 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-03 13:14:03,722 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-03 13:14:03,738 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-03 13:14:03,738 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-03 13:14:03,738 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ashwishe\Desktop\Srinidhi_161655\TDS_161655\src\test\resources
+2018-12-03 13:14:06,144 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-03 13:14:06,144 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-03 13:14:06,144 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-03 13:14:06,144 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-03 13:14:06,144 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ashwishe\Desktop\Srinidhi_161655\TDS_161655\src\test\resources

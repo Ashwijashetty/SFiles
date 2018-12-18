@@ -1,0 +1,62 @@
+package com.cg.student.app.dto;
+
+import org.bson.types.ObjectId;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "Student")
+public class Student {
+	
+	public ObjectId _id;
+
+	private String fullName;
+	private String rollno;
+	private String std;
+
+	
+
+	public Student(ObjectId _id, String fullName, String rollno, String std) {
+		super();
+		this._id = _id;
+		this.fullName = fullName;
+		this.rollno = rollno;
+		this.std = std;
+	}
+
+	public ObjectId get_id() {
+		return _id;
+	}
+
+	public void set_id(ObjectId _id) {
+		this._id = _id;
+	}
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+	
+
+	public String getRollno() {
+		return rollno;
+	}
+
+	public void setRollno(String rollno) {
+		this.rollno = rollno;
+	}
+
+	public String getStd() {
+		return std;
+	}
+
+	public void setStd(String std) {
+		this.std = std;
+	}
+
+	@Override
+	public String toString() {
+		return  ", fullName: " + this.fullName + ", Rollno: " + this.rollno + ", Standard: " + this.std;
+	}
+}

@@ -1,0 +1,6 @@
+package com.cg.Employee.exception;
+
+public class ErrorDetails {
+private String message;
+
+}

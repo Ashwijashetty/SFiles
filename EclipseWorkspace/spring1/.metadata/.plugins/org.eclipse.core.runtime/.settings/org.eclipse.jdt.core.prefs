@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=D\:/eclipse_luna_64bit/eclipse/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files (x86)/Java/jre1.8.0_131/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=D\:/eclipse_luna_64bit/eclipse/plugins/org.junit_4.11.0.v201303080030/
+org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/ashwishe/.m2/repository
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+org.eclipse.jdt.core.compiler.compliance=1.8
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.userLibrary.Referenced\ Libraries=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="/DemoSpring_3/lib/log4j-1.2.9.jar"/>\r\n\t<archive path\="/DemoSpring_3/lib/spring-beans-4.0.3.RELEASE.jar"/>\r\n\t<archive path\="/DemoSpring_3/lib/spring-core-4.0.3.RELEASE.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.Rerenced\ Libraries=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="/lab/lib/commons-logging-1.1.1.jar"/>\r\n\t<archive path\="/lab/lib/spring-aop-4.0.3.RELEASE.jar"/>\r\n\t<archive path\="/lab/lib/spring-beans-4.0.3.RELEASE.jar"/>\r\n\t<archive path\="/lab/lib/spring-boot-1.0.0.RELEASE.jar"/>\r\n\t<archive path\="/lab/lib/spring-boot-autoconfigure-1.0.0.RELEASE.jar"/>\r\n\t<archive path\="/lab/lib/spring-context-4.0.3.RELEASE.jar"/>\r\n\t<archive path\="/lab/lib/spring-context-support-4.0.3.RELEASE.jar"/>\r\n\t<archive path\="/lab/lib/spring-core-4.0.3.RELEASE.jar"/>\r\n\t<archive path\="/lab/lib/spring-expression-4.0.3.RELEASE.jar"/>\r\n</userlibrary>\r\n

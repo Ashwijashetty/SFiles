@@ -1,0 +1,5 @@
+package com.cg.SampleStudent.controller;
+
+public class StudentController {
+
+}

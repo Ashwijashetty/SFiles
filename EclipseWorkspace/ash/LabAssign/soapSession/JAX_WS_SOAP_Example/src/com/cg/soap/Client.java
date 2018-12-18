@@ -1,0 +1,21 @@
+package com.cg.soap;
+
+import java.net.URL;
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
+
+public class Client {
+public static void main(String[] args) throws Exception {
+	URL url=new URL("http://127.0.0.1:9876/csi?wsdl");
+	QName qName=new QName("http://soap.cg.com/","CalculatorImplService");
+	Service service=Service.create(url,qName);
+	Calculator calculator=service.getPort(Calculator.class);
+int sum=calculator.add(1,15);
+System.out.println("Sum is:"+sum);
+
+int sub=calculator.sub(1,15);
+System.out.println("Sub is:"+sub);
+
+
+}
+}

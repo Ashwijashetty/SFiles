@@ -1,0 +1,19 @@
+package com.cg.TDS.entity;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
+
+@Document
+public class TdsDetail {
+	@Id
+	@Field(value = "unique_id")
+	private String uniqueId;
+	@Field(value="deductor_name")
+	private String deductorName;
+@Field(value="deductor_pan")
+private String deductorPan;
+@Field(value="tds_deposited")
+private int tdsDeposited;
+
+}

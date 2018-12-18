@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+org.eclipse.jdt.core.compiler.compliance=1.8
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.userLibrary.hibernate3jars=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/antlr-2.7.6.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/asm-3.1.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/cglib-2.2.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/commons-collections-3.1.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/dom4j-1.6.1.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/hibernate-commons-annotations-3.2.0.Final.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/hibernate-core-3.6.10.Final.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/hibernate-entitymanager-3.6.10.Final.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/javassist-3.12.0.GA.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/jta-1.1.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/ojdbc6.jar"/>\r\n\t<archive path\="C\:/Users/ashwishe/Desktop/jj/lib/slf4j-api-1.6.1.jar"/>\r\n</userlibrary>\r\n

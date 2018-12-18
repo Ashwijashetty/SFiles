@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JdbcUtility.java&apos; to &apos;UniversityAdministrationSystem/src/com.cg.uas.utility&apos;&#x0D;&#x0A;- Original project: &apos;BillingSoftwareApplication_160646&apos;&#x0D;&#x0A;- Destination element: &apos;UniversityAdministrationSystem/src/com.cg.uas.utility&apos;&#x0D;&#x0A;- Original element: &apos;com.capgemini.takehome.utility.JdbcUtility.java&apos;" description="Copy compilation unit" destination="=UniversityAdministrationSystem/src&lt;com.cg.uas.utility" element1="/src&lt;com.capgemini.takehome.utility{JdbcUtility.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1542424924533" units="1" version="1.0"/>
+</session>

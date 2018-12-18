@@ -1,0 +1,82 @@
+package com.cg.sms.entity;
+
+import java.util.Scanner;
+
+
+
+public class Student {
+public String studentName;
+public long studentId;
+public long studentPhoneNum;
+public String studentEmailId;
+public String studentCity;
+
+public String getStudentName() {
+	return studentName;
+}
+public void setStudentName(String studentName) {
+	this.studentName = studentName;
+}
+public long getStudentId() {
+	return studentId;
+}
+public void setStudentId(int studentId) {
+	this.studentId = studentId;
+}
+public long getStudentPhoneNum() {
+	return studentPhoneNum;
+}
+public void setStudentPhoneNum(int studentPhoneNum) {
+	this.studentPhoneNum = studentPhoneNum;
+}
+public String getStudentEmailId() {
+	return studentEmailId;
+}
+public void setStudentEmailId(String studentEmailId) {
+	this.studentEmailId = studentEmailId;
+}
+public String getStudentCity() {
+	return studentCity;
+}
+public void setStudentCity(String studentCity) {
+	this.studentCity = studentCity;
+}
+public Student(String studentName, int studentId, int studentPhoneNum,
+		String studentEmailId, String studentCity) {
+	super();
+	this.studentName = studentName;
+	this.studentId = studentId;
+	this.studentPhoneNum = studentPhoneNum;
+	this.studentEmailId = studentEmailId;
+	this.studentCity = studentCity;
+}
+public Student() {
+	super();
+}
+public void addStudentinfo() {
+	Scanner scan=new Scanner(System.in);
+	System.out.println("Enter Number of Students\n");
+	byte size=scan.nextByte();
+	Student[] st=new Student[size];
+	for(int i=1;i<=st.length;i=i++){
+		
+		System.out.println("Enter Student"+i+" details \n");
+		Student obj =new Student();
+		System.out.println("Enter Student Name: ");
+		obj.studentName=scan.next();
+		System.out.println("\nEnter Student ID: ");
+		obj.studentId=scan.nextLong();
+		System.out.println("\nEnter Student Phone no. : ");
+		obj.studentPhoneNum=scan.nextLong();
+		System.out.println("\nEnter Student EmailId: ");
+		obj.studentEmailId=scan.next();
+		System.out.println("\nEnter Student City: ");
+		obj.studentCity=scan.next();
+	    st[i]=obj;
+	}
+	public void viewDetails(){
+		
+	}
+	
+}
+}

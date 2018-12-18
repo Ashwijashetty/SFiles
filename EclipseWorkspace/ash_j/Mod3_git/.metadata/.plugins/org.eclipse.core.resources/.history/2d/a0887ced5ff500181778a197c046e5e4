@@ -1,0 +1,30 @@
+package com.cg.Employee.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cg.Employee.dao.EmpDao;
+import com.cg.Employee.entity.Employee;
+@Service
+public class EmpServiceImpl implements EmpService{
+@Autowired
+	EmpDao empDao;
+	@Override
+	public Employee addEmployee(Employee employee) {
+		
+		return empDao.addEmployee(employee);
+	}
+	@Override
+	public List<Employee> getAll() {
+		
+		return empDao.getAll();
+	}
+	@Override
+	public Employee getById(String emp_id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,40 @@
+package com.cg.ecm.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.stereotype.Repository;
+
+import com.cg.ecm.entity.ExpenseDetails;
+@Repository
+public class ECMDaoImpl implements EMCDao{
+@Autowired
+	MongoTemplate mongotemplate;
+	@Override
+	public ExpenseDetails addDetails(ExpenseDetails expdetails) {
+		mongotemplate.save(expdetails);
+		return expdetails;
+	}
+	@Override
+	public List<ExpenseDetails> getAllDetails() {
+		
+		return mongotemplate.findAll(ExpenseDetails.class);
+	}
+	@Override
+	public ExpenseDetails getByCode(int expenseCode) {
+		Query query = new Query();
+		query.addCriteria(Criteria.where("_id").is(expenseCode));
+		ExpenseDetails details=mongotemplate.findOne(query, ExpenseDetails.class);
+		return details;
+	}
+	@Override
+	public ExpenseDetails DeleteByCode(int expenseCode) {
+		ExpenseDetails detail=getByCode(expenseCode);
+		return detail;
+		
+	}
+
+}
