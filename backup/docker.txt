@@ -1,0 +1,389 @@
+ashwija/web_docker1 - repositoryname
+
+session-1
+
+sudo su
+yum install docker
+service docker start
+docker --version
+(*Installation of docker*)
+
+docker images
+docker run busybox:1.24 echo "hello world"
+
+cd /
+ls -l
+cd \ (or cd ~)
+
+
+duplicate and close old session
+Commands in new session (duplicated session)session-2
+
+sudo su
+docker run busybox:1.24 ls /
+docker run -it busybox:1.24
+touch a.txt
+ls
+
+new session Session-3
+sudo su
+docker ps
+(ctrl+d in session 2 and come back to session-3)
+docker ps
+docker ps -a
+docker run -it busybox:1.24
+ls
+docker run -it debian:jessie
+apt-get update && apt-get install -y git
+git
+
+{not-required--[3271320a20ba]-copy container(busybox) id}
+
+docker ps -a
+[5744a4643c58 ]-copy container(debian ) id 
+docker commit 5744a4643c58 myimg
+docker images
+docker run -it myimg
+exit
+docker run -it myimg
+git
+
+docker run -it debian:jessie
+apt-get update && apt-get install -y git
+git
+exit
+docker ps -a
+[5fea6636a454]-copy top most container id
+docker commit 5fea6636a454 ashwija/web_docker1
+docker images
+docker login --username=ashwija
+(it asks for password,enter password)
+docker push ashwija/web_docker1
+docker run vaibsharz/vaibhav
+service docker status
+docker ps -a
+docker rm f077a7850c83   (f077a7850c83-is container id to be removed)
+docker rmi 5946688ec4da ( 5946688ec4da-is image id)
+docker -v
+============================================================================
+
+sudo su
+yum install docker
+service docker start
+service docker status
+chkconfig docker on
+
+docker run hello-world
+docker run busy-box:1.24 echo "hello world"
+
+docker run hello-world echo "hello world"
+mkdir myimg
+ls
+cd myimg
+nano Dockerfile
+(copy text into it)
+ctrl+x  
+y
+ls
+cat Dockerfile
+docker build -t "myredis:dockerfile" .
+<start & in new session >>>>>>>>>>
+sudo su
+ls
+cd myimg/
+ls
+cat Dockerfile
+docker image build -t mynewimg .
+docker images
+<new session>>>>>>>>>
+sudo su
+docker images
+docker run f25e51f5864c   [f25e51f5864c-is image id of mynewimg]
+exit
+<new session>>>>>>>>
+sudo su
+clear
+pwd  (to check if we are in root if in myimg type cd .. and come to root)
+(after chekind if in root)
+mkdir myweb
+cd myweb
+nano Dockerfile
+<<<<<
+write the commands
+# Specify base image
+FROM node:alpine
+
+#Download and install a dependency
+RUN npm install
+
+#Default command
+CMD ["npm","start"]
+>>>>
+
+cat Dockerfile
+nano index.js
+
+<<<<write these commands
+
+const express = require('express');
+
+const app = express();
+
+app.get('/',(req,res)=>{
+ res.send('How are you doing');
+});
+
+
+app.listen(80,()=>{
+console.log('Listening on port 8080');
+});
+>>>>>
+
+ls
+nano package.json
+<<<<<Write these commands
+{
+ "dependencies":{ 
+        "express":"*"
+		},
+ "scripts":{
+   "start":"node index.js"
+   }
+}
+>>>>>>>
+
+ls
+ls -l
+docker image build -t mywebserver .
+docker images
+docker run -it mywebserver  (should get errors)
+nano Dockerfile
+<<<<<<<
+# Specify base image
+FROM node:alpine
+
+
+#Download and install a dependency
+COPY ./ ./
+RUN npm install
+
+
+#Default command
+CMD ["npm","start"]
+
+>>>>>
+ 
+
+docker image build -t mywebserver1 .   ("."=>very imp. as it represnts current directory in linux)
+
+ <<<<NOW go to instance select security groups and in security group=>inbound=> and add http anywhere>>>>
+
+docker run -p 80:80 mywebserver1
+<now check your browser using public ip that says "How you are doing">
+
+==================================================================
+USING APACHE
+
+sudo su
+yum install httpd -y
+service httpd start
+service httpd status
+<put public ip on browser Amazo linux AMI Test Page will appear>
+pwd
+nano index.html
+<<<
+
+<html>
+<body bgcolor="pink">
+<h1>Hi,Bindu</h1>
+</body>
+</html>
+
+>>>>
+
+cp index.html /var/www/html
+ls /var/www/html
+service httpd stop
+nano Dockerfile
+<<<
+FROM centos:latest
+
+MAINTAINER ashwija shetty
+
+RUN yum -y install httpd
+
+COPY index.html /var/www/html/
+
+CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
+
+EXPOSE 80
+>>>
+
+ls
+yum install docker
+service docker start
+docker --version
+docker image build -t myapche .
+docker run -p 80:80 myapache
+( see in browser using ipaddress)
+
+docker run -it -v /data --name container1 busybox
+ls
+cd data
+touch file1.txt
+ls 
+exit
+docker inspect container1
+docker restart container1
+docker attach container1
+cd data
+ls
+exit
+pwd
+mkdir mydata
+cd mydata
+pwd
+/home/ec2-user/mydata    (copy path)
+docker run -it --name container2 -v /home/ec2-user/mydata:/datavol busybox
+ls
+cd datavol
+touch file2.txt
+ls
+<open new session and dont close previous one,lets call new session as "A" and previous one as "B">
+IN A 
+sudo su
+ls
+cd mydata
+touch file3.txt
+
+IN B
+ls 
+ (you'll see file2.txt & file3.txt)
+exit
+docker run -it -v /data --name container4 busybox
+ls -l
+cd data
+ls
+touch first.txt
+ls
+IN A
+cd ..
+pwd
+docker ps
+docker run -it --volumes-from container4 --name container5 busybox
+ls
+cd data
+IN B
+touch second.txt
+ls
+IN A 
+ls
+(you'll find first.txt & second.txt)
+
+======================================================================
+Launch instance with http,custom tcp(8080)
+
+sudo su
+yum install docker
+service docker start
+docker --version
+mkdir dockerj
+cd dockerj
+nano sample.java
+<<
+
+public class sample {
+public static void main(String[] args) {
+	System.out.println("**This is java application in web docker**");
+}
+}
+
+>>
+ls
+nano Dockerfile
+<<<<
+FROM java:8
+COPY . /var/www/java
+WORKDIR /var/www/java
+RUN javac sample.java
+CMD ["java", "sample"]
+>>>>
+ls
+docker image build -t dockerjimg .
+docker images
+docker run 34fc1a55325e         [34fc1a55325e-is our image id(dockerimg id)]
+(You'll see otput as "**This is java application in web docker**")
+
+cd ..
+yum install maven
+yum update -y
+yum install maven
+yum install java
+java -version
+yum install git -y
+git --version
+wget (maven tar link address)
+ls
+tar -xf apache-maven-3.6.0-bin.tar.gz (or tar xzvf apache-maven-3.6.0-bin.tar.gz)
+ls
+cd /opt
+ls
+cd ..
+ls
+cd home
+cd ec2-user
+pwd
+(Terminate it, as it doesn't have updated version )
+
+===============Spring rest=======
+NOTE: CREATE INSTANCE USING LINUX WITHOUT JAVA
+
+sudo su
+yum install java
+java -version
+yum install maven
+mvn --version
+yum install git -y
+git --version
+ls
+amazon-linux-extras install docker
+service docker status
+ls
+wget https://www.javainuse.com/zip/spring/boot/employee-producer.zip
+unzip employee-producer.zip
+cd employee-producer
+ls
+mvn clean install
+ls
+cd target
+ls
+cd .. (com back to employee-producer)
+nano Dockerfile
+<<<
+
+FROM tomcat:8.0.51-jre8-alpine
+CMD ["catalina.sh","run"]
+
+>>>
+docker image build -t employee-prducer .
+docker images
+docker container run -p 8080:8080 -d employee-producer
+ls
+nano Dockerfile
+
+<<<
+
+FROM tomcat:8.0.51-jre8-alpine
+RUN rm -rf /usr/local/tomcat/webapps/*
+COPY ./target/employee-producer-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
+CMD ["catalina.sh","run"]
+
+>>>
+docker image build -t emp1 .
+docker rm -f containerid
+docker run -p 8080:8080 -d emp1
+
+
+
+
+
